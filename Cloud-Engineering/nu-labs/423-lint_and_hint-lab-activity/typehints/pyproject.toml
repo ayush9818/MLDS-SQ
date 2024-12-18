@@ -1,0 +1,60 @@
+[project]
+name = "typehints_lab"
+version = "0.1.0"
+description = "Show the benefits of typehinting."
+authors = [
+    "Michael Fedell <mfedell@example.com>"
+]
+license = "MIT"
+readme = "README.md"
+python = "^3.10"
+requires-python = ">=3.10"
+
+keywords = ["ruff", "mypy", "pyproject.toml"]
+
+classifiers = [
+    "Topic :: Software Development"
+]
+
+# Requirements
+[dependencies]
+
+[dev-dependencies]
+black = { version = "^22.1.0", python = "^3.10" }
+ruff = { version = "^0.3.7", python = "^3.10" }
+
+[build-system]
+requires = [
+    "setuptools >= 35.0.2",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
+
+# Tool Configurations
+[tool.black]
+line-length = 100
+target-version = ['py39']
+include = '\.pyi?$'
+extend-exclude = '''
+# A regex preceded with ^/ will apply only to files and directories
+# in the root of the project.
+^/foo.py  # exclude a file named foo.py in the root of the project (in addition to the defaults)
+'''
+
+[tool.autopep8]
+max_line_length = 100
+ignore = "W6"  # or ["E501", "W6"]
+in-place = false
+recursive = false
+aggressive = 3
+
+[tool.ruff]
+# Allow lines to be as long as 120.
+line-length = 88
+
+[tool.ruff.lint]
+select = ["ALL"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+

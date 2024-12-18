@@ -1,0 +1,83 @@
+<mxfile host="Electron" modified="2023-04-06T04:15:15.364Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="CYF3W05ZA9IkBdN7mKRW" version="21.1.2" type="device">
+  <diagram name="Functional Diagram" id="ufa0lLLInginGB9UVhgG">
+    <mxGraphModel dx="1114" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vNUAPbM53LOnLR4m45uh-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m01nbZJdQ4zT8pmcxxm--37" target="m01nbZJdQ4zT8pmcxxm--32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--37" value="Service Discovery" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="520" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--36" value="Model Training &amp;amp; Inference" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="320" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--35" value="Business Processes" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="120" width="120" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--34" value="Data Ingestion" style="fillColor=#EFF0F3;strokeColor=none;dashed=0;verticalAlign=top;fontStyle=0;fontColor=#232F3D;whiteSpace=wrap;html=1;labelBackgroundColor=#EFF0F3;" parent="1" vertex="1">
+          <mxGeometry x="280" y="120" width="640" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--14" value="upload&lt;br style=&quot;font-size: 10px;&quot;&gt;sales data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;labelBackgroundColor=default;" parent="1" source="m01nbZJdQ4zT8pmcxxm--2" target="m01nbZJdQ4zT8pmcxxm--4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--2" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" parent="1" vertex="1">
+          <mxGeometry x="108.44999999999999" y="160" width="63.11" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--15" value="event&lt;br style=&quot;font-size: 10px;&quot;&gt;notification" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;labelBackgroundColor=#EFF0F3;" parent="1" source="m01nbZJdQ4zT8pmcxxm--4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--4" value="AWS S3&lt;br&gt;Raw Data Bucket" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#60A337;gradientDirection=north;fillColor=#277116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;labelBackgroundColor=#EFF0F3;" parent="1" vertex="1">
+          <mxGeometry x="320" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="m01nbZJdQ4zT8pmcxxm--8" target="vNUAPbM53LOnLR4m45uh-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="300" />
+              <mxPoint x="680" y="300" />
+            </Array>
+            <mxPoint x="680" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--20" value="training data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FFFFFF;" parent="m01nbZJdQ4zT8pmcxxm--19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0125" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--8" value="AWS RDS&lt;br&gt;Sales Data" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#4D72F3;gradientDirection=north;fillColor=#3334B9;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.rds;labelBackgroundColor=#EFF0F3;" parent="1" vertex="1">
+          <mxGeometry x="800" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="m01nbZJdQ4zT8pmcxxm--32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUAPbM53LOnLR4m45uh-1" value="HTTP&lt;br&gt;Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="m01nbZJdQ4zT8pmcxxm--33" vertex="1" connectable="0">
+          <mxGeometry x="0.0956" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m01nbZJdQ4zT8pmcxxm--32" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Laptop.svg;" parent="1" vertex="1">
+          <mxGeometry x="100.57" y="560" width="78.87" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUAPbM53LOnLR4m45uh-3" value="AWS ECS (Fargate)&lt;br&gt;Model Training" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;labelBackgroundColor=#EFF0F3;" parent="1" vertex="1">
+          <mxGeometry x="640" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUAPbM53LOnLR4m45uh-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#EFF0F3;dashed=1;endArrow=oval;endFill=1;" parent="1" source="vNUAPbM53LOnLR4m45uh-6" target="vNUAPbM53LOnLR4m45uh-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vNUAPbM53LOnLR4m45uh-5" value="Trigger&lt;br&gt;Training" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#EFF0F3;" parent="vNUAPbM53LOnLR4m45uh-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.0792" y="-4" relative="1" as="geometry">
+            <mxPoint y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vNUAPbM53LOnLR4m45uh-6" value="AWS EventBridge&lt;br&gt;Nightly Cron" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#FF4F8B;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;labelBackgroundColor=#EFF0F3;" parent="1" vertex="1">
+          <mxGeometry x="800" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

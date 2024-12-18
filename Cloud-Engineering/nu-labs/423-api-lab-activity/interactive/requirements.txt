@@ -1,0 +1,2 @@
+requests>=2.30.0
+ipython>=8.22.0

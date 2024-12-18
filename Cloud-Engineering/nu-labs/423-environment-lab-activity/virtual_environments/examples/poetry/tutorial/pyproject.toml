@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Michael Fedell <michaelfedell14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pendulum = "^2.1.2"
+celery = "^5.2.7"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.13.2"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

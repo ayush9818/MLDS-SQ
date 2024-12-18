@@ -1,0 +1,17 @@
+data_cleaning:
+  subset_data:
+    columns:
+      - name
+      - grade
+  clean_missing:
+    value: 
+      name: unknown
+      grade: -1
+  reorder:
+    by: name
+    ascending: False
+  description: some long description can go here
+  tags:
+    - tag1
+    - tag2
+    - tag3    
